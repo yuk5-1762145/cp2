@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+  Name: Rita Kuo
+  Date: October 20, 2020
+  Section: CSE154 AJ
+  This is the index.html page for my cp2 of web development work. It is linked to the
+  styles.css file and index.js file. This page lists out some indoor and outdoor activities that
+  I'll do, then briefly describe and give some info about a TV show that I watched recenlty.
+  -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <title>CP2</title>
+    <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500&family=Oswald&display=swap" rel="stylesheet">
+    </head>
+  <body>
+    <h1>My hobby: spend time with friends/family</h1>
+
+      <section class="container">
+        <p>
+          In this page, I will list out some acticitivies and also show pictures that I will do
+          with my friends and family during free time.<br>
+          In the last part, I will introduce a TV series that I'm obsessed with recently.
+        </p>
+      </section>
+
+      <h2>Outdoor activities:</h2>
+      <section class="container">
+      <ul>
+        <li>
+          <strong>Go hiking:
+            <a href="https://guidetotaipei.com/visit/elephant-mountain-%E8%B1%A1%E5%B1%B1-xiangshan" target="_blank">
+            Xiangshan hiking trail</a></strong>
+            <img src="img/hiking.jpg" alt="hiking">
+            <!--Retrieved from: https://www.travel.taipei/zh-tw/attraction/details/185-->
+          </li>
+
+        <li>
+          <strong><a href="https://www.klook.com/blog/bubble-tea-guide-taipei/" target="_blank">
+            Get some boba tea and chill
+            </a></strong>
+            <img src="img/boba-tea.jpg" alt="salt cream cheese oolong tea with boba">
+          </li>
+
+        <li>
+          <strong>Go to <a href="https://eng.taiwan.net.tw/m1.aspx?sNo=0002040" target="_blank">
+          Night markets</a></strong>
+          <img src="img/night-market.jpg" alt="night market">
+          <!--Retrieved from: https://eng.taiwan.net.tw/m1.aspx?sNo=0002040&jid=77-->
+        </li>
+      </ul>
+      </section>
+
+      <h2>Indoor activities</h2>
+      <section class="container">
+        <article id="img-btn-setup">
+          <button id="img-btn">Click me to see another photo!</button>
+        </article>
+        <ol>
+          <li>
+            <strong> watch
+            <a href="https://www.netflix.com/tw/" target="_blank"> netflix </a></strong>
+            <img src="img/watch.jpg" alt="watch netflix">
+          </li>
+
+          <li>play pubg mobile
+            <img src="img/pubg.jpg" alt="pubg mobile">
+          </li>
+
+          <li>play switch
+            <img id="animalcrossing" src="img/animalcrossing.jpg" alt="aninal crossing">
+          </li>
+
+        </ol>
+      </section>
+
+      <h3>Recent Favorite TV Series: Emily In Paris</h3>
+      <section class="container">
+        <button id="remove-btn">Click Me To Remove image!</button>
+      <article id="parent">
+        <img src="img/emily-in-paris.jpg" alt="Emily in Paris picture" id="remove">
+          <p>
+            Storyline: Emily is an American woman who is moving to Patis for her job opportunity.
+            In the series she "struggles to achieve success in the workplace while searching for
+            love and experiencing incidents when her Midwestern sensibilities clash with Parisian
+            culture."
+            <!--Retrieved from: https://en.wikipedia.org/wiki/Emily_in_Paris-->
+          </p>
+          <h3> Some quotes from seris:</h3>
+          <article id="quote-btn-setup">
+          <button id="quote-btn">Click Me!</button>
+          </article>
+          <ul>
+            <li><span class="quotes">"Perfume is like in life, one has to balance the sweet with...
+            the stinky."</span></li>
+            <li><span class="quotes">"When two things are next to each other, we're forced to
+            compare them."</span></li>
+            <li><span class="quotes">"Ignorance makes you arrogant."
+            </span></li>
+            <li><span class="quotes">"Everything is 'pas possible!' It's the French motto."
+            </span></li>
+            <li><span class="quotes">"Fearless is starting something from zero, marking something
+            that's all your own."</span></li>
+          </ul>
+        </article>
+      </section>
+        <footer><p>Images source:</p>
+          <article id="add-text-btn">
+            <button id="text-btn">Click Me To Get Last Source</button>
+          </article>
+          <ul>
+            <li id="links">https://www.travel.taipei/zh-tw/attraction/details/185</li>
+            <li>https://eng.taiwan.net.tw/m1.aspx?sNo=0002040&jid=77</li>
+          </ul>
+        </footer>
+      </body>
+    </html>

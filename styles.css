@@ -1,0 +1,97 @@
+/*
+Name: Rita Kuo
+Date: October 20, 2020
+Section: CSE154 AJ
+This is the style.css file for my cp2 of web development work. This is used by
+index.html to style the websites with a consistent look and feel. In this file, I
+added somethings to make the web page look better and can get info from page even when user a
+djust the size of the web page.
+*/
+body {
+  background-color: lavender;
+  font-family: "Helvetica", sans-serif;
+  width: 80%;
+  background-image: url("img/marble.jpg");
+  background-attachment: fixed;
+  color: grey;
+  font-size: 14pt;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, h3 {
+  font-size: 35px;
+  background-color: slategrey;
+  color: bisque;
+  padding: 20px;
+  margin: 40px;
+  border-radius: 35%;
+  border: 10px;
+  border-style: solid;
+  border-color: burlywood;
+}
+
+ul {
+  list-style-type: square;
+}
+
+img ~ p {
+  background-color: pink;
+  color: black;
+  font-size: 18pt;
+  font-style: italic;
+}
+
+a[href^="https"] {
+  font-style: bold;
+}
+
+ul > li, ol > li {
+  text-shadow: 4px 4px 3px #778899;
+}
+
+img {
+  height: 450px;
+  width: 400px;
+  border-radius: 10%;
+  margin: 10px;
+  margin-right: 50px;
+}
+
+.container, footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: tan;
+  border-radius: 30px;
+}
+
+footer > p, h1, h2, h3 {
+  text-align: center;
+}
+
+.container {
+  margin-right: 60px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+}
+
+a[href*="youtube"] {
+  color: blanchedalmond;
+}
+
+.quotes {
+  visibility: hidden;
+}
+
+button {
+  font-size: 20px;
+  background-color: royalblue;
+  opacity: 30%;
+}
+
+button, img ~ p {
+  font-family: "Oswald", sans-serif;
+}
